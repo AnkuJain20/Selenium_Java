@@ -17,7 +17,7 @@ public class PriceFilter {
 
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.amazon.in//");
-        String title = driver.getTitle();
+        String title1 = driver.getTitle();
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         driver.findElement(By.id("twotabsearchtextbox")).sendKeys("phone");
         driver.findElement(By.id("nav-search-submit-button")).click();
