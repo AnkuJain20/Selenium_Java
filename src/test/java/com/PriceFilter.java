@@ -33,7 +33,7 @@ public class PriceFilter {
         System.out.println("Number of products searched: " + listOfProducts.size());
         List<WebElement> product_prices = driver.findElements(By.xpath(product_price_list));
         System.out.println("Get all the product prices");
-        boolean bResult = false;
+        boolean bResult1 = false;
         int price_temp = 0;
 
         for (int i = 0; i < product_prices.size(); i++) {
